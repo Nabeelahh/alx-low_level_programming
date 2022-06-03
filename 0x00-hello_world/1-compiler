@@ -1,4 +1,3 @@
-
 #!/bin/bash
-gcc -c $CFILE -o ./${CFILE//'.c'/'.o'}
-
+gcc -c $CFILE -o ./${CFILE//.c/.o}
+echo gcc -c -o ./
